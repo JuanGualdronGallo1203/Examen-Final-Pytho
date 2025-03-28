@@ -23,12 +23,11 @@ def añadir_genero():
     cargar_datos()
     ID_del_género = input("Ingrese el ID del genero que desea añadir: ")
     Descripción_del_género = input("Ingrese la descripcion del genero: ")
-    genero={
+    genero2={
     'El ID Del Genero es': ID_del_género,
     'La Descripcion Del Genero es': Descripción_del_género,
     }
-    cargar_datos()
-    genero.append(genero)
+    genero.append(genero2)
     guardar_datos()
 
   
