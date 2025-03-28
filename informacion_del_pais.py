@@ -29,8 +29,7 @@ def añadir_pais():
     'El Codigo ISO es': codigo_iso,
     'El Codigo ISO3 es': codigo_iso3
     }
-    cargar_datos()
-    paises.append(paises)
+    paises.append(pais)
     guardar_datos()
 
     
